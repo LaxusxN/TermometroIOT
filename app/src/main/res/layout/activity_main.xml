@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,14 +13,13 @@
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ver temperatura (°C)" />
+        android:text="Ver temperatura " />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="wrap_"
-        android:text="Ver 200sen(2pit)" />
+        android:text="Ver 200sen" />
 
 </LinearLayout>
 
