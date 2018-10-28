@@ -10,6 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    String lectura;
     Button vertemp;
     Button versen;
 
@@ -29,15 +30,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                intent.putExtra("key","Tempadc");
                 startActivity(intent);
+
             }
         });
 
         versen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivity3.class);
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                intent.putExtra("key","TempReport");
                 startActivity(intent);
+
             }
         });
 

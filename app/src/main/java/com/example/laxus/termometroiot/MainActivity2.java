@@ -18,6 +18,7 @@ import java.util.ArrayList;
 
 public class MainActivity2 extends AppCompatActivity {
 
+    String lectura;
     private static final String TAG = "MainActivity2";
     FirebaseDatabase database;
     DatabaseReference myRef;
@@ -41,7 +42,8 @@ public class MainActivity2 extends AppCompatActivity {
 
 
         database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("Tempadc");
+        lectura = getIntent().getStringExtra("key");
+        myRef = database.getReference(lectura);
 
 
         ValueEventListener postListener = new ValueEventListener() {
