@@ -21,9 +21,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
         vertemp=(Button)findViewById(R.id.button4);
         versen=(Button)findViewById(R.id.button5);
 

@@ -13,7 +13,6 @@
         android:id="@+id/listview2"
         android:background="#85a">
 
-
     </ListView>
 
 

@@ -1,3 +1,4 @@
+
 package com.example.laxus.termometroiot;
 
 import android.content.Context;
@@ -78,4 +79,3 @@ public class MainActivity3 extends AppCompatActivity {
 
     }
 }
-
